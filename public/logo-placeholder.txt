@@ -1,0 +1,9 @@
+IMPORTANT: Add your Vidhara.jpeg logo file here!
+
+Instructions:
+1. Copy your Vidhara.jpeg file to this public folder
+2. Rename it to "logo.jpeg" (or update the image paths in Header.tsx and Footer.tsx)
+3. The logo will automatically appear in the header and footer
+
+Current expected filename: logo.jpeg
+Dimensions: The logo will be displayed at 48x48px in header and 40x40px in footer

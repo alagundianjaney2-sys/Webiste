@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FaLinkedin, FaTwitter, FaFacebook, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Footer() {
@@ -8,9 +9,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-siemens-teal-500">
-              Electric Switchgear
-            </h3>
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-10 h-10 relative bg-siemens-teal-500 rounded-lg flex items-center justify-center overflow-hidden">
+                <Image
+                  src="/logo.svg"
+                  alt="Electric Switchgear Logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-siemens-teal-500">
+                Electric Switchgear
+              </h3>
+            </div>
             <p className="text-siemens-gray-300 mb-4">
               Leading provider of innovative electric switchgear solutions for industrial and commercial applications.
             </p>
