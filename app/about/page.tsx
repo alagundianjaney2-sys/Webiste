@@ -135,7 +135,7 @@ export default function AboutPage() {
             Join Us on Our Journey
           </h2>
           <p className="text-lg text-siemens-gray-600 mb-8 max-w-2xl mx-auto">
-            Whether you're looking for a career opportunity or a partnership, we'd love to hear from you.
+            Whether you&apos;re looking for a career opportunity or a partnership, we&apos;d love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a href="/contact" className="btn-primary">

@@ -65,7 +65,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-95">
-            Get in touch with our team of experts. We're here to help with your electric switchgear needs.
+            Get in touch with our team of experts. We&apos;re here to help with your electric switchgear needs.
           </p>
         </div>
       </section>
