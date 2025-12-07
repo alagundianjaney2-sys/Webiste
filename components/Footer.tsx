@@ -9,8 +9,12 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-siemens-teal-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">ES</span>
+              <div className="w-10 h-10 rounded-lg overflow-hidden bg-white shadow-sm">
+                <img 
+                  src="/logo.jpeg" 
+                  alt="Electric Switchgear Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h3 className="text-xl font-bold text-siemens-teal-500">
                 Electric Switchgear

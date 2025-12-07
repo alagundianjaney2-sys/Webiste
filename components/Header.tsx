@@ -15,8 +15,12 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-siemens-teal-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-2xl">ES</span>
+            <div className="w-12 h-12 rounded-lg overflow-hidden bg-white shadow-sm">
+              <img 
+                src="/logo.jpeg" 
+                alt="Electric Switchgear Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-xl font-bold text-siemens-gray-900">
               Electric Switchgear
