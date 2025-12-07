@@ -1,6 +1,6 @@
 # Electric Switchgear Solutions Website
 
-A professional Next.js 15 website with a Siemens-inspired theme, focused on electric switchgear products and solutions. Built with TypeScript and Tailwind CSS.
+A professional Next.js 15 website with a Siemens-inspired theme, focused on electric switchgear products and solutions. Built with TypeScript and Tailwind CSS featuring the Vidhara company logo.
 
 🌐 **Live Demo**: [View on Vercel](https://your-deployment-url.vercel.app)
 
