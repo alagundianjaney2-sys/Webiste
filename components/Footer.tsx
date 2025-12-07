@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { FaLinkedin, FaTwitter, FaFacebook, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Footer() {
@@ -10,14 +9,8 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 relative bg-siemens-teal-500 rounded-lg flex items-center justify-center overflow-hidden">
-                <Image
-                  src="/logo.svg"
-                  alt="Electric Switchgear Logo"
-                  width={40}
-                  height={40}
-                  className="object-contain"
-                />
+              <div className="w-10 h-10 bg-siemens-teal-500 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">ES</span>
               </div>
               <h3 className="text-xl font-bold text-siemens-teal-500">
                 Electric Switchgear

@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -16,15 +15,8 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 relative bg-siemens-teal-500 rounded-lg flex items-center justify-center overflow-hidden">
-              <Image
-                src="/logo.svg"
-                alt="Electric Switchgear Logo"
-                width={48}
-                height={48}
-                className="object-contain"
-                priority
-              />
+            <div className="w-12 h-12 bg-siemens-teal-500 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-2xl">ES</span>
             </div>
             <span className="text-xl font-bold text-siemens-gray-900">
               Electric Switchgear
