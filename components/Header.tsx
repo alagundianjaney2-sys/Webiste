@@ -11,20 +11,15 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 rounded-lg overflow-hidden bg-white shadow-sm">
-              <img 
-                src="/logo.jpeg" 
-                alt="Electric Switchgear Logo" 
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <span className="text-xl font-bold text-siemens-gray-900">
-              Electric Switchgear
-            </span>
+          <Link href="/" className="flex items-center">
+            <img 
+              src="/logo.jpeg" 
+              alt="Electric Switchgear Solutions" 
+              className="h-16 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
