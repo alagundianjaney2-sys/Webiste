@@ -8,13 +8,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="mb-6">
-              <img 
-                src="/logo.jpeg" 
-                alt="Electric Switchgear Solutions" 
-                className="h-36 w-auto object-contain"
-              />
-            </div>
             <p className="text-siemens-gray-300 mb-4">
               Leading provider of innovative electric switchgear solutions for industrial and commercial applications.
             </p>
