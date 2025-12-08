@@ -18,7 +18,7 @@ export default function Header() {
             <img 
               src="/logo.jpeg" 
               alt="Electric Switchgear Solutions" 
-              className="h-16 w-auto object-contain"
+              className="h-48 w-auto object-contain"
             />
           </Link>
 

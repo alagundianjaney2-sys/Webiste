@@ -12,7 +12,7 @@ export default function Footer() {
               <img 
                 src="/logo.jpeg" 
                 alt="Electric Switchgear Solutions" 
-                className="h-12 w-auto object-contain"
+                className="h-36 w-auto object-contain"
               />
             </div>
             <p className="text-siemens-gray-300 mb-4">
