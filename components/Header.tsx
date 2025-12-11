@@ -11,14 +11,14 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-1">
+      <div className="container mx-auto px-4 py-0">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <img 
-              src="/logo.jpeg" 
-              alt="Electric Switchgear Solutions" 
-              className="h-80 w-auto object-contain"
+            <img
+              src="/logo.jpeg"
+              alt="Electric Switchgear Solutions"
+              className="h-40 md:h-40 w-auto object-contain -ml-4 md:-ml-6"
             />
           </Link>
 
