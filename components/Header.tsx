@@ -11,14 +11,15 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-0">
-        <div className="flex justify-between items-center">
+      <div className="container mx-auto px-4 h-40">
+        <div className="flex justify-between items-center h-40">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center h-full">
             <img
               src="/logo.jpeg"
               alt="Electric Switchgear Solutions"
               className="h-40 md:h-40 w-auto object-contain -ml-4 md:-ml-6"
+              style={{ transform: 'scale(2)', transformOrigin: 'left center' }}
             />
           </Link>
 
